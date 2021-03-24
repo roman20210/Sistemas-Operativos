@@ -1,0 +1,90 @@
+\documentclass[titlepage,12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage[spanish]{babel}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage[margin=2.54cm]{geometry}
+\usepackage[onehalfspacing]{setspace}
+
+
+\begin{titlepage}
+
+\title{\textbf{Sistemas operativos}}
+\author{Johann Alexander Romero Riveros \ \\  ITC -  jaromerorretolau@itc.edu.co \\\ Reporte numero 2}
+\date{\today}
+\end{titlepage}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introducción}
+En el presente trabajo se mostrará una breve historia de los fundamentos de los sistemas operativos, de mismo modo se expondrá los componentes que lo conforman. Además, se explicará la de forma breve la evolución de los SO y de mismo modo la máquina que lo contiene.
+\\{\it Sistemas Operativos, evolución, historia.}
+
+\section{Objetivos}
+\begin{itemize}
+    \item {\it Conocer la historia de los sistemas operativos y su definición.  
+    \item Reconocer los componentes principales de los SO.
+    \item Analizar los dispositivos que contenian los diferentes sistemas operativos.}
+\end{itemize}
+\section{Desarrollo}
+\subsection{¿Qué es un sistema operativo?}
+Se podria decir que es el software que se ejecuta en el modo kernel de una computadora ademas de proporcionar a los programadores recursos simples que permiten la administracion de todos los recursos del hardware.
+
+Los usuarios normalmente interactúan con los periféricos que administra el sistema operativo mediante los controladores o también conocidos como {\it drivers}.
+\subsection{Historia de los sistemas operativos}
+\subsubsection{Primera generación (1945 a 1955)}
+Después de la segunda guerra mundial empezó el desarrollo de la primera computadora digital que contaba con 300 tubos de vacío mostrados en la figura 1. Al mismo tiempo se estaban desarrollando otras computadoras en diferentes partes del mundo, aunque a pesar de ser maquinas tan grandes, todas se demoraban bastantes segundos en realizar un cálculo bastante sencillo.
+\subsubsection{Segunda generación (1955 a 1965)}
+Las grandes maquinas ahora son conocidas como mainframes y tienen un cuarto especial para este tipo de máquinas, con refrigeración y personas encargadas de hacerle mantenimiento y de utilizarlas.
+El lenguaje de programación era escrito en papel para luego ser pasado a tarjetas perforadas (ver figura 2) que leía la máquina.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.35]{Images/Tubos de vacio.jpg}
+\caption{Computadora con Tubos de vacio}
+\label{fig:tubos_de_vacio}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.35]{Images/tarjeta-perforada1.png}
+\caption{Tarjeta perforada}
+\label{fig:tubos_de_vacio}
+\end{figure}
+\subsubsection{Tercera generación (1965 a 1980):}
+En 1965 se crean los sistemas operativos de tiempo real que se caracterizan por tener el tiempo como un parámetro clave. Aparte se introducen a las computadoras el sistema 360 IBM donde luego sería remplazado 5 años después por un sistema operativo de seguridad llamado MTV del mismo IBM que protegería las líneas de comunicación. En 1970 se crearía el primer sistema operativo dirigido a minicomputadoras conocido como “DOS-11” que era complicado de usar.
+
+En 1976 evolucionaria la forma de interacción de los programas con el hardware gracias al lanzamiento del SO MVS utilizados en modelos mainframes que son computadoras del tamaño de un cuarto completo, actualmente son las computadoras que abarcan más espacio.
+\subsubsection{Cuarta generación (1980 a la fecha)}
+Apple anunciaría un nuevo sistema operativo que iba dirigido especialmente a microcomputadores para lanzarlo a finales de 1978. Ese mismo año CP/M se convirtió en el estándar industrial para los primeros micro-ordenadores debido a su fama. 
+
+En 1981 Microsoft llegaría al mercado con su sistema operativo llamado MS-DOS 1.0 para computadoras basadas en x86.
+A principios de 1984 Steve Jobs presento la primer Macintosh con una RAM de 128 KB, pantalla de 9 pulgadas sin disco duro, es por esto que es SO se encontraba en un disquete de 3,5 pulgadas con una capacidad de 400 KB.
+Luego aparecería el sistema operativo de Atari que se diseñó para realizar multitareas.
+
+Con el paso de los años cada sistema operativo evoluciono y otros se quedarían es sus primeras versiones, aumentándole la capacidad de la memoria RAM, ROM y el disco duro donde se almacenaba el sistema operativo, aparte de añadirle puertos USB y Jack para los dispositivos de Entrada y Salida.
+
+\subsection{Componentes de los sistemas operativos}
+\begin{itemize}
+    \item \textbf{Procesos:} Son los procesos que aparecen al momento de ejecutar un programa.
+    \item \textbf{Espacio de direcciones:} Sirve para direccionar las tareas que principalmente van dirigidas al manejo de la memoria.
+    \item \textbf{Sistema de archivos:} Organiza la información de almacenada en la PC.
+    \item \textbf{Dispositivos de Entrada y Salida:} Son los dispositivos a disposición del usuario controlados por los drivers mediante el SO.
+    \item \textbf{Protección:} También es conocido como sistema de seguridad y es el que protege el ordenador del usuario de personas externas que se aprovechan de la información confidencial.
+    \item \textbf{Tipos de memoria:} Son los diferentes tipos de memoria como la RAM, ROM, SCRAM o Caché y la memoria virtual.
+\end{itemize}
+
+
+\section{Conclusion}
+En conclusión, los sistemas operativos tuvieron que pasar por varios procesos para llegar a lo que son hoy en día y no todos los sistemas operativos van dirigidos hacia las mismas máquinas debido a que algunos están hechos específicamente para computadoras personales y otros para mainframes o servidores.
+
+Como se pudo evidenciar, los SO tienen unos componentes que lo hacen funcionar de manera.
+
+
+\begin{thebibliography}{0}
+  \bibitem{Tanenbaum1992} Tanenbaum, A. S. (1992). Sistemas operativos modernos.
+\end{thebibliography}
+
+\end{document}
